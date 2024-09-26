@@ -1,0 +1,27 @@
+{
+  "name": "tdl-vue-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "www": "pnpm --filter @f/www",
+    "ui-vue": "pnpm --filter @f/ui-vue",
+    "cva": "pnpm --filter @f/cva",
+    "build:cva": "pnpm cva build",
+    "build:vue": "pnpm ui-vue add '@f/cva@workspace:*' && pnpm ui-vue build"
+  },
+  "keywords": [],
+  "author": "Filip Vasilovski",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-vue": "^9.28.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}

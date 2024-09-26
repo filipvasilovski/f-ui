@@ -1,0 +1,53 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 0.375rem; /* rounded-md */
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500; /* font-medium */
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(
+    0.4,
+    0,
+    0.2,
+    1
+  ); /* transition-colors */
+  outline: none;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.button:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow:
+    0 0 0 2px var(--ring-color),
+    0 0 0 4px var(--ring-offset-color); /* focus-visible:ring-2 and focus-visible:ring-offset-2 */
+}
+
+.button:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* Variants */
+.default {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
+.default:hover {
+  background-color: var(--color-primary-90);
+}
+
+.destructive {
+  background-color: var(--color-destructive);
+  color: var(--color-destructive-foreground);
+}
+
+.destructive:hover {
+  background-color: var(--color-destructive-90);
+}
