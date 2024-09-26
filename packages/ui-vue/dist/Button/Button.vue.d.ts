@@ -1,4 +1,4 @@
-import { ButtonProps } from '@f/cva/src/main';
+import { ButtonProps } from '@filipvasilovski/cva/src/main';
 declare function __VLS_template(): {
     slots: {
         default?(_: {}): any;

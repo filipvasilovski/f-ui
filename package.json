@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "www": "pnpm --filter @f/www",
-    "ui-vue": "pnpm --filter @f/ui-vue",
-    "cva": "pnpm --filter @f/cva",
+    "www": "pnpm --filter @filipvasilovski/www",
+    "ui-vue": "pnpm --filter @filipvasilovski/ui-vue",
+    "cva": "pnpm --filter @filipvasilovski/cva",
     "build:cva": "pnpm cva build",
-    "build:vue": "pnpm ui-vue add '@f/cva@workspace:*' && pnpm ui-vue build"
+    "build:vue": "pnpm ui-vue add '@filipvasilovski/cva@workspace:*' && pnpm ui-vue build"
   },
   "keywords": [],
   "author": "Filip Vasilovski",

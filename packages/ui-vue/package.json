@@ -1,5 +1,5 @@
 {
-  "name": "@f/ui-vue",
+  "name": "@filipvasilovski/ui-vue",
   "private": false,
   "version": "0.0.0",
   "type": "module",
@@ -17,7 +17,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@f/cva": "workspace:^",
+    "@filipvasilovski/cva": "workspace:^",
     "class-variance-authority": "^0.7.0",
     "vue": "^3.4.37"
   },

@@ -38,7 +38,7 @@ importers:
 
   apps/www:
     dependencies:
-      '@f/ui-vue':
+      '@filipvasilovski/ui-vue':
         specifier: workspace:^
         version: link:../../packages/ui-vue
       vue:
@@ -85,7 +85,7 @@ importers:
 
   packages/ui-vue:
     dependencies:
-      '@f/cva':
+      '@filipvasilovski/cva':
         specifier: workspace:^
         version: link:../cva
       class-variance-authority:
