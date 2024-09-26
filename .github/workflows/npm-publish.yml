@@ -17,7 +17,7 @@ jobs:
         with:
           version: 9.11.0
       - run: pnpm install
-      - run: pnpm build-ui-vue
+      - run: pnpm build:vue
       - name: save build artifact
         uses: actions/upload-artifact@v4
         with:
@@ -45,7 +45,7 @@ jobs:
         with:
           name: dist
           path: ./packages/ui-vue/dist
-      - name: publish @filipvasilovski/ui-vue to npm
+      - name: publish @f/ui-vue to npm
         run: pnpm publish --no-git-checks --registry=https://npm.pkg.github.com
         working-directory: ./packages/ui-vue
         env:
