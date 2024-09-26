@@ -25,7 +25,7 @@
       "path": "apps/www"
     },
     {
-      "path": "packages/ui-vue"
+      "path": "packages/t-ui-vue"
     },
     {
       "path": "packages/cva"

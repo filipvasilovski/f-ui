@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@filipvasilovski/ui-vue": "workspace:^",
+    "@filipvasilovski/t-ui-vue": "workspace:^",
     "vue": "^3.4.37"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { FButton } from "@filipvasilovski/ui-vue";
+import { FButton } from "@filipvasilovski/t-ui-vue";
 </script>
 
 <template>

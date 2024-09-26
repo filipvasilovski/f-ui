@@ -38,7 +38,7 @@ importers:
 
   apps/www:
     dependencies:
-      '@filipvasilovski/ui-vue':
+      '@filipvasilovski/t-ui-vue':
         specifier: workspace:^
         version: link:../../packages/ui-vue
       vue:

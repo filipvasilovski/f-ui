@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "www": "pnpm --filter @filipvasilovski/www",
-    "ui-vue": "pnpm --filter @filipvasilovski/ui-vue",
+    "ui-vue": "pnpm --filter @filipvasilovski/t-ui-vue",
     "cva": "pnpm --filter @filipvasilovski/cva",
     "build:cva": "pnpm cva build",
     "build:vue": "pnpm ui-vue add '@filipvasilovski/cva@workspace:*' && pnpm ui-vue build"
